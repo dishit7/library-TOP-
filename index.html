@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="form-creation">Add a Book</button>
+    <div class="container">
+        <div class="cards">
+            <h2 class="Title">Can't Hurt me </h2>
+            <h4 class ="Author">David Goggins</h4>
+            <h6 class="pages">324</h6>
+            <button class="remove-book">Remove Book</button>
+        </div>
+    </div>
+   <form action="" method="get" class="Book Details">
+      <div class="form-group">
+        <div class="input-group"> 
+         <label for="title">Title</label>
+         <input type="text" name="title" class="title" required/>
+        </div>
+        
+        <div class ="input-group">
+         <label for ="author">Author's Name</label>
+         <input type="text" name=" author" class="author" required/>
+        </div>
+        <div class="input-group">
+            <label for="pages">Number of Pages</label>
+            <input type="number" name="pages" class="pages" required/>
+        </div>
+        <div class="input-group">
+            <input type="button"   onclick="addBooktoLibrary()" value="display">
+        </div>
+        
+       
+    </div>
+        </form>
+    
+     
+        
+    
+ 
+   <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+ .cards{
+    height: 400px;
+    width:400px;
+    border: solid 1px black;
+    display: inline-block;
+    margin-right: 10px;
+ }
+ .container{
+ width:850px;
+ display: flex ;
+ flex-wrap :wrap;
+border:solid 1px black;
+ }
+ 
+ form{
+   visibility:hidden;
+   border: solid 1px rgb(80, 4, 17);
+ }
